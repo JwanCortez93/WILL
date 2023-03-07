@@ -14,7 +14,13 @@ function numeroSimetrico(num) {
 
   // Tu código:
 
+  let check=num.toString()
+  check=check.split("").reverse().join("")
+  return check==num
+
 }
+
+
 
 // No modifiques nada debajo de esta linea //
 
